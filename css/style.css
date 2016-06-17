@@ -1,0 +1,45 @@
+.glyphicon {
+    float: right;
+    margin: 2px 1px 0px 10px;
+}
+.list-group-item .glyphicon:hover {
+    color: #616161;
+}
+/*.list-group-item-success .glyphicon:hover {*/
+    /*color: #000;*/
+/*}*/
+/*.list-group-item-danger .glyphicon:hover {*/
+    /*color: #000;*/
+/*}*/
+
+.list-group-item:hover {
+    background: #c1e2b3;
+}
+.list-group-item.active {
+    background: #00A1CB;
+    border-color: #008db2;
+    color: #ffffff;
+}
+.list-group-item.active:hover{
+    background: #008db2;
+    border-color: #008db2;
+}
+.list-group-item-success {
+    background: #61AE24;
+    border-color: #549920;
+    color: #ffffff;
+}
+.list-group-item-success:hover {
+    background: #549920;
+    border-color: #549920;
+}
+.list-group-item-danger {
+    background: #F18D05;
+    border-color: #d87e04;
+    color: #ffffff;
+}
+.list-group-item-danger:hover {
+    background: #d87e04;
+    border-color: #d87e04;
+}
+
