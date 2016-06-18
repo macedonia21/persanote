@@ -1,0 +1,16 @@
+{
+  "name": "persanote",
+  "description": "Personal Note",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
