@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Persanote</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Personal Note 0.1</h2>
+    <p>This is a Bootstrap with jQuery example</p>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#all">All</a></li>
+        <li><a data-toggle="tab" href="#done">Done</a></li>
+        <li><a data-toggle="tab" href="#going">On-Going</a></li>
+        <li><a data-toggle="tab" href="#pending">Pending</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="all" class="tab-pane fade in active">
+            <h3>All tasks</h3>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="todo">Thing to do:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="todo" maxlength="80">
+                    </div>
+                    <div class="col-sm-2">
+                        <button type="button" class="btn btn-primary" id="btn_add">Add</button>
+                    </div>
+                </div>
+            </form>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="list-group all">
+                    <!--<li class="list-group-item">First item</li>-->
+                </ul>
+            </div>
+        </div>
+        <div id="done" class="tab-pane fade">
+            <h3>All done</h3>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="list-group done">
+                    <!--<li class="list-group-item">First item</li>-->
+                </ul>
+            </div>
+        </div>
+        <div id="going" class="tab-pane fade">
+            <h3>To do</h3>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="list-group going">
+                    <!--<li class="list-group-item">First item</li>-->
+                </ul>
+            </div>
+        </div>
+        <div id="pending" class="tab-pane fade">
+            <h3>More to do</h3>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="list-group pending">
+                    <!--<li class="list-group-item">First item</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
